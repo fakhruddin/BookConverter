@@ -7,7 +7,7 @@ public class Utility {
 	
 	public String getSplitString(String splitString,String sytx)
 	{
-		System.out.println(" splitString" + splitString +" ="+sytx);
+		//System.out.println(" splitString" + splitString +" ="+sytx);
 		String finalString = "";
 		String[] tokens = splitString.split(sytx);
 		

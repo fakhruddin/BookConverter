@@ -38,18 +38,18 @@ public class Main {
 		
 		
 		
-		try {
-
-            File file = new File("C:\\Users\\A.K.MFakhruddin\\Desktop\\New folder\\book.xml");
-            JAXBContext jaxbContext = JAXBContext.newInstance(BookType.class);
-
-            Unmarshaller jaxbUnmarshaller = jaxbContext.createUnmarshaller();
-            BookType booktype = (BookType) jaxbUnmarshaller.unmarshal(file);
-            System.out.println(booktype.getAuthors().author);
-
-        } catch (JAXBException e) {
-            e.printStackTrace();
-        }
+//		try {
+//
+//            File file = new File("C:\\Users\\A.K.MFakhruddin\\Desktop\\New folder\\book.xml");
+//            JAXBContext jaxbContext = JAXBContext.newInstance(BookType.class);
+//
+//            Unmarshaller jaxbUnmarshaller = jaxbContext.createUnmarshaller();
+//            BookType booktype = (BookType) jaxbUnmarshaller.unmarshal(file);
+//            System.out.println(booktype.getAuthors().author);
+//
+//        } catch (JAXBException e) {
+//            e.printStackTrace();
+//        }
 	}
 
 	private static void parsingData(ProcessInput pI) {
