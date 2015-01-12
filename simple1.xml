@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<book>
+    <name>Effective Java</name>
+    <authors>
+        <author> Joshua Bloch</author>
+        <author>Jame gosling</author>
+    </authors>
+    <publisheddate> October 2005</publisheddate>
+</book>
